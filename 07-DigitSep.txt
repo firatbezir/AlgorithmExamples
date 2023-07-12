@@ -1,0 +1,38 @@
+Question: Algorithm that separates a 3-digit integer that is entered by user into digit values and prints each digit value to the screen
+
+Example: Let the number entered be 420.
+Display output: 
+	Hundreds digit: 4
+	Tens digit : 2
+	Ones digit : 0
+
+
+Step 1	: Start
+Step 2	: Get a number from the user as (number)
+Step 3	: If the number >=100 AND the number < 1000, go to Step 4. Otherwise print ("Please 	  enter a 3 digit integer") and go back to Step2
+Step 4 	: hundredsDigit = number / 100
+Step 5 	: tensDigit = (number - hundredsDigit * 100) / 10
+Step 6 	: onesDigit = (number - (hundredsDigit * 100 + tensDigit * 10))
+Step 7 	: Print to Screen ("Hundreds Digit":, hundredsDigit )
+Step 8 	: Print to Screen ("Tens Digit ":, tensDigit)
+Step 9	: Print to Screen ("Ones Digit":, onesDigit)
+Step 10	: Exit
+
+
+--------------------------------------------
+
+Step-2
+
+By mode function: The mod operation is the remainder of one number divided by another number (denoted by %).
+
+
+Step 1: Start
+Step 2: Get a number value from the user (number)
+Step 3: If the number >=100 and the number < 1000, go to Step 4. Otherwise write to the screen("Please enter a 3-digit integer") and go back to Step 2.
+Step 4 : onesDigit = number % 10
+Step 5: tensDigit = (number / 10) % 10
+Step 6: hundredsDigit = (number / 100) % 10
+Step 7 	: Print to Screen ("Hundreds Digit":, hundredsDigit )
+Step 8 	: Print to Screen ("Tens Digit ":, tensDigit)
+Step 9	: Print to Screen ("Ones Digit":, onesDigit)
+Step 10	: Exit

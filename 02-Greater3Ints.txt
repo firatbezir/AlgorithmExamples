@@ -1,0 +1,23 @@
+Question: Write the algorithm that finds the largest of the 3 numbers received from the user
+
+Step 1 - Start
+Step 2 - Get number1, number2 and number3 from the user
+Step 3 - If number1 > number2 && number1 > number3
+	 print (number1 is maximum)
+Step 4 - If number1 < number2 && number1 < number3
+	 	If numberi2 > numberi3
+	 	Write (number2 is maximum)
+Step 5 - Otherwise 
+	 write (number3 is maximum)
+Step 6 - Exit
+
+
+-------------------------------------------
+
+Step 1 - Start
+Step 2 - Get number1, number2 and number3 from the user
+Step 3 - Set number1 is the largest
+Step 4 - If number2 > number1 && number2 > number3 then number2 is the largest
+Step 5 - If number3 > number1 && number3 > number2 then number3 is the largest
+Step 6 - Print the largest
+Step 7 - Exit

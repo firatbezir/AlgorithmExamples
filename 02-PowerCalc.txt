@@ -1,0 +1,9 @@
+Q: An algorithm that calculates the second and third power of an integer and prints it on the screen.
+
+Step 1 : Start
+Step 2 : Data Entry : Enter the first integer (number)
+Step 3 : If the number is an integer, go to step 4, otherwise go back to step 2
+Step 4 : numSquare = number * number
+Step 5 : numCup = numSquare * number
+Step 6 : Write to Screen (numSquare, numCup)
+Step 7 : Exit

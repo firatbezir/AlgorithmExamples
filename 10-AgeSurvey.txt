@@ -1,0 +1,21 @@
+Question: Algorithm that finds the average weight of students on a campus by gender?
+
+Step 1   : Start
+Step 2   : maleNumber = 0, femaleNumber = 0, maleWeight = 0, femaleWeight = 0, maleMid = 0, 	   femaleMid = 0
+Step 3   : Are there any students, is there any information?
+		a. If yes, go to step 4
+		b. If no, skip to step 8
+Step 4   : What is your gender?
+Step 4.1 : Read genderValue (m/f)
+Step 5   : What is your weight?
+Step 5.1 : Read weightValue
+Step 6   : If gender = "e"
+		maleNumber += 1
+		maleWeight += weightValue
+Step 7   : If not (i.e. gender = "k")
+		number of women += 1
+		womanWeight += weightValue
+Step 8   : maleMid = male weight/maleNumber
+	   womanMid = womanWeight/WomanNumber
+Step 9   : Write the values to the screen (maleNumber, femaleNumber, maleWeight, femaleWeight,    	   maleMid, femaleMid)
+Step 10  : Finish

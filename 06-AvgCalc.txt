@@ -1,0 +1,17 @@
+Question: Write the algorithm that finds the average of n numbers received from the user
+
+
+Step 1: Start
+Step 2: total = 0, average = 0
+Step 2.1: Print to the screen ("How many numbers do you want to enter?: ")
+Step 3: Read and assign to variable (i.e. n=6)
+Step 4 : Set the  counter = 1
+Step 5 : if counter <= n go to Step 5-a otherwise go to Step 5-e
+		a. Print to screen (Enter number please... : _)
+		a.1. Read and assign to variable number = value
+		b. total = total + number
+		c. counter  = counter + 1
+		d. Go back Step 5 
+		e. average = total / n
+Step 6: Print on the screen (Your average: average)
+Step 7: Exit

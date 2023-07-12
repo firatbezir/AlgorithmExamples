@@ -1,0 +1,15 @@
+Question: Algorithm that calculates the factorial of a number received from the user and prints it to the screen 
+
+
+Step 1	: Start
+Step 2	: Take input from the user for the number to calculate its factorial.
+Step 3	: Check if the input number is less than 0. If it is, return an error or an a	  	  ppropriate message indicating that the factorial is not defined for negative numbers 	  and go back to the Step2
+Step 4 	: If the input number is 0 or 1, the factorial is defined as 1. Go to Step 9.
+Step 5 	: Set variables counter to 1 and factorial to 1.
+Step 6 	: If counter is less than or equal to the input number, go to step 7 otherwise go to 	  Step 9.	
+Step 7 	: Let factorial = counter * factorial and go to Step 8.
+Step 8 	: Increment counter by 1 and go to step 6.
+Step 9	: Print the value of factorial.
+Step 10	: Exit
+
+

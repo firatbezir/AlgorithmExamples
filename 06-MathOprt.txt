@@ -1,0 +1,17 @@
+Question: Write the algorithm that performs addition, subtraction, multiplication, division operations and prints the results to the screen and prints the error message to the screen if necessary according to the type of math operation with the two numbers received from the user.
+
+NOTE: Let's assume that numeric values are entered for number1 and number2 values, and letters are entered for the operation value.
+
+Step 1: Start
+Step 2: Receive the number1 from the user.
+Step 3: Receive the math operation from the user. (T stands for addition, C for subtraction, B for division, X for multiplication)
+Step 4: If operation == T or == C or == X or == B go to Step 5.
+Otherwise, write to the Screen("You have entered an incorrect operation type. Please re-enter") and go to Step 3.
+Step 5: Get the number2 value from the user.
+Step 6: If operation == B or operation == "b" and number2 == 0, print to the screen("Number cannot be divided by zero. Please re-enter number2!") and go to Step 5.
+Otherwise, let the result be number1/number2 and go to Step 10.
+Step 7: If operation == X or operation == "x" result = number1 * number2 and go to Step 10.
+Step 8: If operation == T or operation == "t" result = number1 + number2 and go to Step 10.
+Step 9: If operation == C or operation == "c" result = number1 - number2 and go to Step 10.
+Step 10: Print the(result)
+Step 11: Finish

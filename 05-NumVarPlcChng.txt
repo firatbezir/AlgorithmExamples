@@ -1,0 +1,25 @@
+Question: Consider two numbers (let A and B) received from the user. How will they look after they are exchanged. 
+NOTE: The values in variables A and B will change without defining a 3rd or temporary variable!
+
+
+-----------------------------------------------------------------------
+
+Step 1 : Start
+Step 2 : Get number1 and number2 values from user (i.e: A:13, B:22)
+Step 3 : Print ("A is : " number1 and "B is : " number2) => (i.e: A is: 13, B is: 22)
+Step 3 : Let number1 = number1 + number2 = 13 + 22 = 35
+Step 4 : Let number2 = number1 - number2 = 35 - 13 = 22
+Step 5 : Let number2 = number1 - number2 = 35 - 22 = 13
+Step 3 : Print ("A is : " number1 and "B is : " number2) => (i.e: A is: 13, B is: 22)
+Step 6 : Finish
+
+
+-----------------------------------------------------------------------
+
+Step 1 : Get started
+Step 2 : Get the values of number1 and number2 
+Step 3 : number1 = number1 / number2
+Step 4 : sayi2 = number2 * number1
+Step 5 : sayi1 = number2 / number1
+Step 6 : write on screen number1 and number2 
+Step 6 : Finish.

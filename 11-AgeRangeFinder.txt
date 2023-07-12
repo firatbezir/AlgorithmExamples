@@ -1,0 +1,11 @@
+Question: The ages of a 20-person team will be entered. Write the algorithm of the application that finds the number of people between the ages of 18 and 25 and displays it on the screen. (including 18 and 25)
+
+Step 1 : Start
+Step 2 : age = 0, counter = 1, ageRange = 0
+Step 3 : Enter your age
+Step 4 : counter += 1 
+Step 5 : If 18 <= age <=25 go to step 6, if not go to step 7
+Step 6 : ageRange += 1
+Step 7 : if counter <=20 go to step 3 if not go to step 8
+Step 8 : Print the ageRange on the screen
+Step 9 : Finish	

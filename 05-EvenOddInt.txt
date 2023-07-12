@@ -1,0 +1,9 @@
+Question6: Write the algorithm that prints whether an integer received from the user is even or odd.
+
+
+Step 1 : Start
+Step 2 : Get number from user
+Step 3 : If the number % 2 = 0 
+	 Print number is even)
+Step 4 : If not print (number is odd)
+Step 5 : Exit

@@ -1,0 +1,14 @@
+Question: Algorithm that calculates the student's grade and writes pass or fail
+Cond: Midterm: 30%, Final: 70%, passing grade: 50
+Note: Grades will be calculated out of 100
+
+Step 1 : Start
+Step 2 : Get midterm grade and final grade values from the user.
+Step 3 : If 0 <= midGrade < 100 && 0 <= finalGrade < 100, go to step 4, if not, go to step 2
+Step 4 : passGrade = midGrade * 0.3 + finalGrade * 0.7
+Step 5 : passLimit = 50
+Step 6 : If the passGrade < passLimit 
+		Print on Screen ("You failed because your average grade was less than 50")
+	  If not
+		Print on Screen ("You passed because your average grade was higher than 50") 
+Step 7 : Exit

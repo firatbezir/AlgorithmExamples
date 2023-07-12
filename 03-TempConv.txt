@@ -1,0 +1,8 @@
+Q: An algorithm that takes the Fahrenheit from the user and turns it to Celsius.
+
+
+Step 1 : Start
+Step 2 : Data Entry : enter the tempFahr value 
+Step 3 : tempCelc = (tempFahr - 32 ) / 1.8
+Step 4 : Print to Screen (tempFahr, tempCelc)
+Step 5 : Exit

@@ -1,0 +1,12 @@
+Q: Algorithm that displays the phase of the water based on the temperature of the water (in Celsius) received from the user.
+
+
+Step 1 : Start
+Step 2 : Data Entry : enter the waterTemp value 
+Step 3 : if waterTemp is a numeric value go to step 4, if not go to step 2
+Step 4 : If waterTemperature < 0, Print (Water is solid)
+	  Otherwise, if waterTemperature == 0, Print ("Water can be solid or liquid")
+	  Otherwise, if suTemperature > 0 && suTemperature < 100, Print ("Water is liquid")
+	  Otherwise, if waterTemperature == 100, Print ("Water may be liquid or water vapor")
+	  Otherwise Print (Water is in water vapor state)
+Step 7 : Exit

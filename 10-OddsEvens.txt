@@ -1,0 +1,19 @@
+Question: Algorithm that finds the difference between the sum of odd and even integers between 1 and 300 (inclusive) and displays whether this difference is negative, positive, or zero.
+
+Step 1	: Start
+Step 2	: oddTotal and evenTotal are equal to 0
+Step 3	: let number = 1
+Step 4	: If the number <= 300, go to Step 5. Otherwise go to step 7.
+Step 5	: If number%2 ==1, oddTotal = oddTotal + 1
+	  Otherwise evenTotal = evenTotal + 1
+Step 6 	: number = number + 1 and go to Step 4
+Step 7 	: Let result = oddSum - evenSum
+Step 8 	: If result = oddSum - evenSum = 0
+	Print ("The difference between the sum of the odd numbers " & oddTotal & "and the value " & evenTotal & " is " & difference & "!") and go to Step 11
+Step 9 	: If the result is oddSum - evenSum < 0
+	Print ("The difference between " & oddTotal & ", which is the sum of odd numbers, and " & evenTotal & " is " & difference & " and is negative!") and go to Step 11
+Step 10 : If result = oddSum - evenSum > 0
+	Print ("The difference between " & oddTotal & ", which is the sum of odd numbers, and " & evenTotal & " is " & difference & " and is positive!") and go to Step 11
+Step 11	: Finish
+
+

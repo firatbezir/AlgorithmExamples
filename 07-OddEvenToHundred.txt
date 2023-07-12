@@ -1,0 +1,16 @@
+Question: Algorithm that writes numbers from 1 to 100 as odd and even
+
+(i.e. : 1 odd, 2 even, ... 100 odd)
+
+Step 1 : Start
+Step 2 : counter = 1
+Step 3 : Loop over (counter <= 100)
+		If counter % 2 = 0
+		  Print to Screen (counter + double)
+		If not 
+		  Print to Screen (counter + odd)
+		sayay = sayac + 1
+Step 4: Finish	
+
+
+

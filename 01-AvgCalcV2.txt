@@ -1,0 +1,17 @@
+Q: Algorithm that calculates the sum and arithmetic average of five integers received from the user and writes it to the screen.
+
+Step 1: Get Started
+Step 2: total = 0
+Step 3: Learn the number1 from the user and
+	If number1 is an integer then sum = sum + number1 and go to step 4. otherwise go to step 3
+Step 4: learn number2 from the user and
+	If number2 is an integer then sum = sum + number2 and go to step 5 otherwise go to step 4
+Step 5: learn the number3 from the user and
+	If number3 is an integer then sum = sum + number3 and go to step 6 otherwise go to step 5
+Step 6: learn the number4 from the user and
+	If number4 is an integer then sum = sum + number4 and go to step 7 otherwise go to step 6
+Step 7: learn number5 from the user and
+	If number5 is an integer then sum = sum + number5 and go to step 8 otherwise go to step 7.
+Step 8: average = total/5
+Step 9: Write to screen (total, average)
+Step 10: Finish

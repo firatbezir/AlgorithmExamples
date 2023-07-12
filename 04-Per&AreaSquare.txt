@@ -1,0 +1,9 @@
+Question5: Algorithm to calculate the perimeter and area of a square given a side length from the user
+
+
+Step 1 : Start
+Step 2: Get the edge length from the user
+Step 3 : area = edgeLength * edgeLength 
+Step 4 : perimeter = 4*edgeLength 
+Step 5: Write (area, perimeter)
+Step 6: Exit

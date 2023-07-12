@@ -1,0 +1,28 @@
+Question: If a number X is odd, it is multiplied by 3 and 1 is added. If it is even, it is divided by 2. The process continues until the number X is 1. 
+
+An algorithm that finds how many steps this process takes, the maximum value that X takes during the process, after which number X always reaches 1 as an even number (even maximum) and prints it on the screen.
+
+
+Step 1 Start
+Step 2: Define number, counter, maxNumber, doubleMaxNumber from the user // always think about the COUNTER variable if we are going to count something
+Step 3: Receive the number variable from the user	 
+Step 4: Set the counter = 0, evenMaxNumber = 0, maxNumber = 0
+Step 5: If number != 1, go to Step 6
+	 Otherwise, Write to Screen("You entered the number as 1") and go to Step 14
+Step 6: If the number >=2,
+	 let count = count + 1 and go to step 7
+ 	 Otherwise go to Step 11.
+Step 7: If the number % 2 == 1 (i.e. the number is odd), 
+	 let numberi = (3 * numberi + 1)
+         let count = count + 1
+	 Let evenMaxNumber = 0. Go to step 8
+Step 8: If evenMaxNumber < number, 
+	 Let evenMaxNumber = number and go to step 9
+         Otherwise, go to Step 9 without performing the operation above.
+Step 9: If maxNumber < number,
+	 Let maxNumber = number and go to step 10
+Step 10: Let number = number / 2
+Step 11: Write to the screen: ("The maximum number reached during these operations: maxNumber ")
+Step 12: Write to the screen: ("During these operations, the maximum number of times 1 is reached in doubles: doubleMaxNumber")
+Step 13: Write on the screen: ("Number of steps to complete these operations: counter")
+Step 14: Finish

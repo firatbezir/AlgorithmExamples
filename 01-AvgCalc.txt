@@ -1,0 +1,12 @@
+Q: Algorithm that calculates the average of two integers received from the user and shows it on the screen
+
+Step 1 - Get Started
+Step 2 - Data Entry: Enter the first integer (number1)
+Step 3 - If number1 is an integer, go to step 4
+Otherwise, write it on the screen (Please enter an integer!) and go to Step 2.
+Step 4- Data Entry: Enter the second integer (number2)
+Step 5 - If number2 is an integer, go to step 6
+Otherwise, write it on the screen (Please enter an integer!) and go to Step 4.
+Step 6- Operation and assignment: average = (number1 + number2) / 2
+Step 7 - Print: average
+Step 8 - Exit

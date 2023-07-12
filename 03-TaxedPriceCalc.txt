@@ -1,0 +1,9 @@
+Question: A program that adds tax (18%) to the price entered from the user and displays the taxed price on the screen
+
+
+Step 1 - Start
+Step 2 - price = Enter the price
+Step 3 - tax = 0.18
+Step 4 - price_Tax = price + price * tax
+Step 5 - print(price_Tax)
+Step 6 - Exit

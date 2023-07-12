@@ -1,0 +1,15 @@
+Question: An algorithm that displays the number of customers who liked, disliked and undecided in a survey for a product and the total number of customers
+
+
+Step 1 : Start
+Step 2 : likes = 0, dislikes = 0, undecided = 0, total = 0
+Step 3 : Are any customers participating in the survey?
+		a. If yes, go to step 4
+		b. If not available, go to Step 9
+Step 4 : Write on the screen (What is your idea? : )
+Step 5 : If the answer is "I like", like = like + 1 and go to step 3
+Step 6 : If the answer is "dislike", dislike = dislike + 1 and go to Step 3
+Step 7 : If the answer is "undecided", undecided = undecided + 1 and go to Step 3
+Step 8 : total = likes + dislikes + undecided
+Step 9 : Print on the screen (likes, dislikes, undecided and total)
+Step 10: Exit
